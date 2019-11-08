@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Auto_Layout_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gq0-ZJ-06Q" userLabel="firstView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="409"/>
+                                <color key="backgroundColor" red="0.21581596403745751" green="1" blue="0.94091666180412481" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gpe-3l-gTq">
+                                <rect key="frame" x="0.0" y="487" width="414" height="409"/>
+                                <color key="backgroundColor" red="1" green="0.33780088763600336" blue="0.88247481132738015" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gpe-3l-gTq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5hL-Jr-4Jv"/>
+                            <constraint firstItem="gpe-3l-gTq" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="Bo3-lI-sDT"/>
+                            <constraint firstItem="gpe-3l-gTq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NpP-f4-I43"/>
+                            <constraint firstItem="Gq0-ZJ-06Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yug-Ok-N4f"/>
+                            <constraint firstAttribute="bottom" secondItem="gpe-3l-gTq" secondAttribute="bottom" id="ZCh-cd-Keb"/>
+                            <constraint firstItem="Gq0-ZJ-06Q" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="app-ar-XLd"/>
+                            <constraint firstItem="Gq0-ZJ-06Q" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="x2s-JY-mdI"/>
+                            <constraint firstItem="Gq0-ZJ-06Q" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.5" id="xgF-rt-RLc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
+        </scene>
+    </scenes>
+</document>
